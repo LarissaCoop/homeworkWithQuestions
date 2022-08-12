@@ -5,7 +5,7 @@ export default function greet(name) {
   if (name === null || name === undefined) return "Hello there!";
   //Next, handle null values by introducing a default. For example, when the name parameter is null, then the method should return the string “Hello there!”.
   if (typeof name === typeof []) {
-    if (name.length > 0 && name.Length < 3) {
+    if (name.length > 0 && name.length < 3) {
       let names = "";
       name.forEach((elm) => {
         names += ", " + elm;
